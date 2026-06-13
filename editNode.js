@@ -23,7 +23,7 @@ const Myvisitor = {
         }
 
         let VariableDeclarationNodes = [];
-        for( i of declarations ){
+        for(let i of declarations ){
             VariableDeclarationNodes.push(t.variableDeclaration(kind,[i]));
         }
 
